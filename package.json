@@ -1,0 +1,22 @@
+{
+  "name": "rhi-simple-atm",
+  "version": "1.0.0",
+  "description": "A simple console atm application using typescript, node js, and inquirer.",
+  "main": "main.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raheel Iqbal",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
